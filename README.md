@@ -13,4 +13,5 @@ Python and pip installed.
 
 # Steps to install OpenCV:
 On the command prompt type the command: pip install opencv-python
+
 import cv2 as cv
