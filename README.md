@@ -15,3 +15,7 @@ Python and pip installed.
 On the command prompt type the command: pip install opencv-python
 
 import cv2 as cv
+
+print(cv2.__version__)
+
+If the version is printed, your openCV has installed successfully.
