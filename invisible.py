@@ -14,7 +14,7 @@ background = 0
 #capture the background
 for i in range(60):
 	return_val , background = capture_video.read()
-	if return_val == False :
+	if return_val is False :
 		continue 
 
 background = np.flip(background, axis=1)
